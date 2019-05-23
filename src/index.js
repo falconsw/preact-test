@@ -2,7 +2,7 @@ import "./style";
 import { Component, render } from "preact";
 import { Result } from "./result";
 
-const URL = "//bittrex.com/api/v1.1/public/getmarketsummaries";
+const URL = "//api.bittrex.com/api/v1.1/public/getmarketsummaries";
 
 export default class App extends Component {
   componentDidMount() {
